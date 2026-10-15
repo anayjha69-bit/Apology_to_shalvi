@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffe9e7"><title>Hey Babe 💗</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Nunito:wght@400;600;700;800;900&display=swap');
+:root{--pink:#f6a0aa;--hot:#d94c69;--dark:#702b35;--paper:#fff8f1;--line:#f7c7c7;--text:#58343b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f8d9d6;color:var(--text);font-family:Nunito,system-ui,sans-serif}
+button{font:inherit;cursor:pointer;border:0}.app{width:min(100%,440px);min-height:100vh;margin:auto;background:linear-gradient(145deg,#ffe9e6,#fff2e9 55%,#fbdadd);position:relative;overflow:hidden;box-shadow:0 0 60px #8e3d4b20}
+.app:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;background-image:radial-gradient(ellipse at 8% 3%,#fff 0 7%,transparent 7.5%),radial-gradient(ellipse at 94% 13%,#ffd1d2 0 8%,transparent 8.5%),radial-gradient(ellipse at 4% 45%,#fff5ef 0 6%,transparent 6.5%),radial-gradient(ellipse at 95% 70%,#ffd3d2 0 8%,transparent 8.5%)}.screen{display:none;min-height:100vh;padding:34px 24px 25px;position:relative;z-index:1;flex-direction:column;animation:in .35s ease}.screen.active{display:flex}@keyframes in{from{opacity:.4;transform:translateY(8px)}to{opacity:1;transform:none}}.topline{display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:1.5px;font-weight:900;color:#a14e5a}.title{font-family:"Patrick Hand",cursive;font-size:49px;line-height:.98;color:var(--dark);margin:24px 0 18px;letter-spacing:-1px}.title span{color:var(--hot)}p{font-size:14px;line-height:1.75;margin:8px 0}.center{text-align:center;align-items:center}.center p{max-width:330px}.btn{border-radius:18px;padding:15px 20px;font-size:13px;font-weight:900;box-shadow:0 8px 18px #c54e6320;transition:transform .15s}.btn:active{transform:scale(.97)}.primary{background:linear-gradient(135deg,#e75b78,#d94466);color:white}.secondary{background:#fff4ef;color:#984555;border:1px solid #f7c9c8}.wide{width:100%;margin-top:12px}.hero-art{font-size:105px;line-height:1.3;margin:16px auto 8px;filter:drop-shadow(0 8px 5px #b34c4c12)}.cat{font-size:80px;margin-top:auto;text-align:center;line-height:1.2}.letter{background:#fff9f0e8;border:1px solid white;box-shadow:0 8px 24px #b64c5420;border-radius:6px;padding:24px 21px;margin:18px 0;position:relative;transform:rotate(-.5deg)}.letter:before{content:"♡";position:absolute;right:16px;top:-18px;background:#ffdfdf;border:1px solid #f6bfc2;border-radius:9px;padding:5px 13px;font-size:23px;color:var(--hot)}.letter h2{font-family:"Patrick Hand",cursive;font-size:27px;color:var(--dark);margin:0 0 13px}.letter p{font-size:13px;line-height:1.85}.section-title{font-family:"Patrick Hand",cursive;font-size:30px;text-align:center;color:var(--dark);margin:12px 0 20px}.tile{background:#fff2ecb8;border:1px solid #f8d3d0;border-radius:17px;padding:15px;margin:12px 0;display:flex;gap:13px;align-items:center;box-shadow:0 5px 14px #b64c540a}.emoji{font-size:30px;flex-shrink:0}.tile b{display:block;font-family:"Patrick Hand",cursive;font-size:19px;color:#713541;margin-bottom:3px}.tile p{font-size:12px;margin:0;line-height:1.55}.promisegrid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.promise{background:#fff2edb8;border:1px solid #f7d0cd;border-radius:16px;padding:17px 12px;text-align:center;min-height:150px}.promise .emoji{font-size:26px}.promise b{display:block;font-family:"Patrick Hand",cursive;font-size:18px;margin:8px 0;color:#713541}.promise p{font-size:11.5px;line-height:1.55}.bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto;padding-top:25px}.smallbtn{padding:10px 13px;border-radius:14px;background:#fff4ef;border:1px solid #f5d6d1;color:#8c4b54;font-size:12px;font-weight:800}.dots{display:flex;gap:8px}.dot{width:9px;height:9px;border-radius:50%;background:#e8b8b7}.dot.active{background:#cf4564}.choices{display:grid;gap:10px;margin:22px 0}.choice{background:#f7c7c7;border-radius:16px;padding:17px;text-align:left;color:#6c3441;font-size:13px;font-weight:800;display:flex;justify-content:space-between;align-items:center}.choice:nth-child(2){background:#f8d8ce}.choice:nth-child(3){background:#e9dcf3}.choice:nth-child(4){background:#e8e3e5}.endart{font-size:110px;margin:auto 0 12px}.surprise{background:#211b2b;color:#fff0ef;border-radius:18px;padding:20px 14px;margin:18px 0}.surprise h2{font-family:"Patrick Hand",cursive;font-size:29px;text-align:center;font-weight:400}.cards{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mini{background:#fff0e9;color:#66343d;border-radius:5px;padding:17px 10px;text-align:center;font-family:"Patrick Hand",cursive;font-size:17px;transform:rotate(-2deg)}.mini:nth-child(even){transform:rotate(2deg)}.tiny{font-size:10px;color:#a16e76;text-align:center;margin-top:15px}.float{position:absolute;z-index:3;pointer-events:none;animation:floatup 3.5s linear forwards}@keyframes floatup{to{transform:translateY(-95vh) rotate(35deg);opacity:0}}
+@media(min-width:700px){body{padding:20px 0}.app{border-radius:28px;min-height:calc(100vh - 40px)}.screen{min-height:calc(100vh - 40px)}}
+</style></head>
+<body><main class="app" id="app">
+<section class="screen active center" data-s="0">
+<div class="topline"><span>♡ A LITTLE WEBSITE FOR YOU</span><span>💌</span></div>
+<div class="hero-art">🐱💗</div><h1 class="title">Hey <span>Babe</span> ♡</h1>
+<p>I made a really stupid joke and I know it hurt. I made this little page to properly apologise and make things right.</p>
+<button class="btn primary wide" onclick="go(1)">Click to open my message →</button>
+<div class="cat">🐱💗</div><p class="tiny">made with a guilty heart & lots of care</p>
+</section>
+<section class="screen center" data-s="1">
+<div class="topline"><span>♡ JUST FOR YOU</span><span>02 / 07</span></div>
+<div class="hero-art" style="margin-top:70px">💌</div><h2 class="title" style="font-size:37px">A little message<br>for you...</h2><p>Click the envelope in your imagination. It's full of things I should've said better.</p>
+<button class="btn primary wide" onclick="go(2)">Open the letter ♡</button><div class="bottom"><button class="smallbtn" onclick="go(0)">← Back</button><div class="dots"><i class="dot active"></i><i class="dot"></i><i class="dot"></i></div><button class="smallbtn" onclick="go(2)">Next →</button></div>
+</section>
+<section class="screen" data-s="2">
+<div class="topline"><span>♡ A NOTE FROM ME</span><span>03 / 07</span></div>
+<div class="letter"><h2>I owe you an apology, Babe.</h2>
+<p>I told you I found your friend on Hinge as a joke, and that was really immature and disrespectful. I get why it upset you.</p>
+<p>Even though it was a joke, it was insensitive and unnecessary. It could make you feel uncomfortable, overthink things, or question things, and that's the last thing I want.</p>
+<p>I'm really sorry for saying it. I should've been more thoughtful and considerate. I'll do better and be more careful with my words.</p>
+<p>I won't tell you how to feel or expect you to get over it straight away. I just want to listen and understand. ❤️</p></div>
+<div class="bottom"><button class="smallbtn" onclick="go(1)">← Back</button><div class="dots"><i class="dot active"></i><i class="dot"></i><i class="dot"></i></div><button class="btn primary" onclick="go(3)">Next →</button></div>
+</section>
+<section class="screen" data-s="3">
+<div class="topline"><span>♡ I UNDERSTAND</span><span>04 / 07</span></div><h2 class="section-title">Here's what I understand...</h2>
+<div class="tile"><div class="emoji">💗</div><div><b>It wasn't a funny joke.</b><p>It could have made you feel weird, uncomfortable or even insecure, and that's completely valid.</p></div></div>
+<div class="tile"><div class="emoji">🙋🏻‍♀️</div><div><b>It disrespected your friend.</b><p>It wasn't fair to bring your friend into a joke like that, even if I didn't mean it seriously.</p></div></div>
+<div class="tile"><div class="emoji">🌸</div><div><b>You should feel respected.</b><p>My words should never make you feel doubtful, uncomfortable or upset.</p></div></div>
+<div class="bottom"><button class="smallbtn" onclick="go(2)">← Back</button><div class="dots"><i class="dot active"></i><i class="dot"></i><i class="dot"></i></div><button class="btn primary" onclick="go(4)">Next →</button></div>
+</section>
+<section class="screen" data-s="4">
+<div class="topline"><span>♡ PROMISES, NOT EXCUSES</span><span>05 / 07</span></div><h2 class="section-title">Some promises from me ✨</h2>
+<div class="promisegrid">
+<div class="promise"><div class="emoji">💬</div><b>Think before I speak</b><p>I'll be more mindful and avoid jokes that could hurt you or make you uncomfortable.</p></div>
+<div class="promise"><div class="emoji">💗</div><b>Be more considerate</b><p>I'll keep your feelings in mind, especially when it comes to you and your friends.</p></div>
+<div class="promise"><div class="emoji">⭐</div><b>Do better</b><p>I'll learn from this and be more thoughtful, mature and respectful.</p></div>
+<div class="promise"><div class="emoji">🌿</div><b>Communicate better</b><p>If something's bothering you, I'll listen and take it seriously.</p></div>
+</div>
+<div class="bottom"><button class="smallbtn" onclick="go(3)">← Back</button><div class="dots"><i class="dot"></i><i class="dot active"></i><i class="dot"></i></div><button class="btn primary" onclick="go(5)">Next →</button></div>
+</section>
+<section class="screen" data-s="5">
+<div class="topline"><span>♡ JUST A FEW EXTRA THINGS</span><span>06 / 07</span></div><h2 class="section-title">Just a few extra things...</h2>
+<div class="tile"><div class="emoji">💗</div><div><b>Your feelings are valid.</b><p>You have every right to be upset.</p></div></div>
+<div class="tile"><div class="emoji">🧸</div><div><b>I take this seriously.</b><p>Even though it was a joke, I understand the impact it had.</p></div></div>
+<div class="tile"><div class="emoji">🌷</div><div><b>I'm grateful you tell me when something bothers you.</b><p>That helps me be a better person.</p></div></div>
+<div class="tile"><div class="emoji">💌</div><div><b>I'm sorry again, truly.</b><p>And I'll show you I mean it.</p></div></div>
+<div class="bottom"><button class="smallbtn" onclick="go(4)">← Back</button><div class="dots"><i class="dot"></i><i class="dot"></i><i class="dot active"></i></div><button class="btn primary" onclick="go(6)">Next →</button></div>
+</section>
+<section class="screen center" data-s="6">
+<div class="topline"><span>♡ YOUR TURN, BABE</span><span>07 / 07</span></div><h2 class="title" style="font-size:39px">Will you forgive me? <span>♡</span></h2><p>Take your time, there's no pressure. Choose whatever feels right for you.</p>
+<div class="choices" style="width:100%">
+<button class="choice" onclick="answer('Thank you for hearing me out, Babe. I’ll try to make it right through my actions, not just words. ❤️')"><span>💗 &nbsp; Yes, I forgive you</span><span>›</span></button>
+<button class="choice" onclick="answer('That’s okay, Babe. Take the time you need. I’m sorry, and I’ll be ready to listen whenever you want. 🤍')"><span>😔 &nbsp; I need a little more time</span><span>›</span></button>
+<button class="choice" onclick="answer('I’m listening, Babe. Tell me what’s on your mind when you feel ready. 💬')"><span>💬 &nbsp; Let's talk about it</span><span>›</span></button>
+<button class="choice" onclick="answer('Challenge accepted: I’ll make it up to you with your favourite snack and some quality time, whenever you’re ready. 🧸')"><span>🎮 &nbsp; Make it up to me with a challenge</span><span>›</span></button>
+</div>
+<p id="answer" aria-live="polite"></p><div class="endart">🐻🤍🐱</div><button class="btn primary wide" onclick="go(7)">A little surprise →</button><button class="smallbtn" style="margin-top:12px" onclick="go(5)">← Back</button>
+</section>
+<section class="screen center" data-s="7">
+<div class="topline"><span>♡ ONE LAST THING</span><span>✦ ✧ ✦</span></div><h2 class="title" style="font-size:37px;color:#7a3340">A little surprise for you ♡</h2><p>Things I really appreciate about you...</p>
+<div class="surprise"><div class="cards">
+<div class="mini">You always listen to me<br>♡</div><div class="mini">You make boring days so much better<br>♡</div><div class="mini">You tell me how you feel<br>♡</div><div class="mini">You have a kind heart<br>♡</div><div class="mini">You make ordinary moments special<br>♡</div><div class="mini">You deserve to be treated thoughtfully<br>♡</div>
+</div></div>
+<p>You're amazing, Babe. I'm sorry I hurt your feelings. No pressure to respond right away — I just wanted to make sure you knew that I mean this apology. 💗</p>
+<button class="btn primary wide" onclick="sprinkle()">Send a little love ♡</button><button class="smallbtn" style="margin-top:12px" onclick="go(0)">↻ Start again</button>
+</section>
+</main>
+<script>
+let current=0;
+function go(n){current=n;document.querySelectorAll('.screen').forEach((s,i)=>s.classList.toggle('active',i===n));window.scrollTo({top:0,behavior:'smooth'});}
+function answer(msg){document.getElementById('answer').textContent=msg;sprinkle()}
+function sprinkle(){const bits=['♡','💗','💌','✨','🌸'];for(let i=0;i<28;i++){const e=document.createElement('span');e.className='float';e.textContent=bits[Math.floor(Math.random()*bits.length)];e.style.left=Math.random()*95+'%';e.style.bottom='-15px';e.style.fontSize=(15+Math.random()*20)+'px';e.style.animationDuration=(2+Math.random()*2)+'s';document.getElementById('app').appendChild(e);setTimeout(()=>e.remove(),4300)}}
+</script></body></html>
